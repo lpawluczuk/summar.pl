@@ -1,0 +1,31 @@
+Copyright (C) IPI PAN, 2008-2011. All rights reserved.
+Available under the terms of the GNU General Public License;
+see the file LICENCE for details.
+
+About
+=====
+
+  The tool implements bigram Conditional Random Fields (CRF).
+  It has been developed at the Institute of Computer Science,
+  Polish Academy od Sciences, Warsaw.
+  The tool has been created as a part of the LUNA project.
+  It has been rearranged within the National Corpus of Polish project.
+
+Prerequisites
+=================
+
+  * Python, version 2.6 or 2.7, http://www.python.org/.
+    Additionally, python development package (on debian-like machines,
+    e.g., it is named python-dev) is nesseseary to install PyCRF module.
+  * Cython, version 0.14, http://cython.org/.
+
+Installation
+============
+
+To install this source distribution, cd to the ./crf/libcrf directory and run:
+
+	make all
+
+then, run setup.py script (with administrator privileges) to install the crf module:
+
+	python setup.py install
