@@ -12,6 +12,7 @@ More info, as well as simple usage will be added soon.
 * corpus-based training using PyBrain or FANN (Fast Artificial Neural Network Library)
 * three running modes: summarization, training, evaluation
 * uses NERf as a Named Entity Recognition too (see: http://zil.ipipan.waw.pl/Nerf)
+* uses Polish Summaries Corpus (see: http://zil.ipipan.waw.pl/PolishSummariesCorpus) for training and evaluation
 
 ## Dependencies
 
